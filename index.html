@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Lists</title>
+  <style>
+    /* Add some basic styling to the buttons */
+    .menuBtn {
+      padding: 10px 20px;
+      background-color: #7e4300a6;
+      color: white;
+      border: none;
+      cursor: pointer;
+      float: right;
+      font-size: 20px;
+    }
+    /* Change the button color when hovered */
+    .menuBtn:hover {
+      background-color: black;
+    }
+    /* Add some basic styling to the book lists */
+    .bookList {
+      padding: 290px 20px;
+      background-color: #6cff7327;
+      display: none;
+    }
+    /* Add some basic styling to the list items */
+    .bookList li {
+      list-style-type: none;
+      margin: 10px 0;
+      }
+    #bookLhist li{
+      float: left;
+      margin: 10px;
+    }
+    /* Add some basic styling to the links */
+    .bookList a {
+      color: rgb(0, 255, 170);
+      text-decoration: none;
+    }
+    /* Add some basic styling to the links when hovered */
+    .bookList a:hover {
+      text-decoration: underline;
+      color: rgb(0, 255, 0);
+    }
+    #padding-box {
+      padding: 20px;
+      background-color: #7e4300a6;
+      position: absolute; top: 90%;
+      height: 50px;
+      width: 1250px;
+    }
+    #social-media {
+      font-size: 15px;
+      color: white;
+    }
+    #kids{
+      font-size: 30px;
+      color: aquamarine;
+      float: left;
+      margin-left: 22px;
+      margin-top: 22px;
+    }
+    #dfg{
+      font-size: 30px;
+      color: aquamarine;
+      float: left;
+    }
+    #books {
+      font-size: 30px;
+    }
+    #book {
+      font-size: 25px;
+    }
+    #paddings-box {
+      padding: 10px 10px;
+      background-color: blue;
+      position: absolute; top: 20%;
+    }
+  </style>
+</head>
+<body>
+  <button class="menuBtn" onclick="showBookList('list4')">الصفحة الرئيسية</button>
+  <button class="menuBtn" onclick="showBookList('list2')">روايات</button>
+  <button class="menuBtn" onclick="showBookList('list3')">أطفال</button>
+  <button class="menuBtn" onclick="showBookList('list1')">كتب اسلامية</button>
+  <img src="C:\Users\lenovo\Downloads\WhatsApp_Image_2023-01-18_at_2.13.31_PM-removebg-preview_150x150.png" height="95" width="95">
+  <div id="list1" class="bookList">
+    <ul>
+      <li><a href="books/TheGreatGatsby.pdf" target="_blank">The Great Gatsby by F. Scott Fitzgerald</a></li>
+      <li><a href="books/ToKillAMockingbird.pdf" target="_blank">To Kill a Mockingbird by Harper Lee</a></li>
+    </ul>
+  </div>
+  <div id="list2" class="bookList">
+    <ul>
+      <li><a href="books/TheCatcherInTheRye.pdf" target="_blank">The Catcher in the Rye by J.D. Salinger</a></li>
+      <li><a href="books/TheLordOfTheRings.pdf" target="_blank">The Lord of the Rings by J.R.R. Tolkien</a></li>
+    </ul>
+  </div>
+  <div id="list3" class="bookList">
+    <ul>
+      <div id="books"><li><a href="C:\Users\lenovo\Downloads\أسطورة الحمامة البيضاء.pdf" style="position: absolute; top: 55%;">أسطورة الحمامة البيضاء</a></li></div>
+      <div id="books"><li><a href="C:\Users\lenovo\Downloads\القرد زغرب وعربة الموز.pdf" style="position: absolute; top: 55%; left: 33%;">القرد زغرب وعربة الموز</a></li></div>
+      <div id="books"><li><a href="C:\Users\lenovo\Downloads\البومة الغريبة.pdf" style="position: absolute; top: 55%; right: 5%;">البومة الغريبة</a></li></div>
+      <div id="books"><li><a href="C:\Users\lenovo\Downloads\قبضة أبي.pdf" style="position: absolute; top: 55%; right: 30%;">قبضة أبي</a></li></div>
+      <div id="books"><li><a href="C:\Users\lenovo\Downloads\الباندا الصغيرة و أمها.pdf" style="position: absolute; top: 100%; left: 7%;">الباندا الصغيرة و أمها</a></li></div>
+      <div id="book"><li><a href="C:\Users\lenovo\Downloads\الحصان الطيار في بلاد الاسرار.pdf" style="position: absolute; top: 100%; right: 2%;">الحصان الطيار في بلاد الاسرار</a></li></div>
+      <div id="books"><li><a href="C:\Users\lenovo\Downloads\اميرة في بلاد الاقزام.pdf" style="position: absolute; top: 100%; left: 35%;">امير في بلاد الاقزام</a></li></div>
+      <div id="books"><li><a href="C:\Users\lenovo\Downloads\جبل العجائب.pdf" style="position: absolute; top: 100%; right: 28%;">جبل العجائب</a></li></div>
+      <img src="C:\Users\lenovo\Downloads\1.jpg" height="250px" width="190px" style="position: absolute; top: 17%; left: 7%;">
+      <img src="C:\Users\lenovo\Downloads\تنزيل.jpeg" height="250px" width="190px" style="position: absolute; top: 17%; left: 35%;">
+      <img src="C:\Users\lenovo\Downloads\البومة-الغريبة.jpg" height="250px" width="190px" style="position: absolute; top: 17%; right: 3%;">
+      <img src="C:\Users\lenovo\Downloads\قبضة-أبي.jpg" height="250px" width="190px" style="position: absolute; top: 17%;right: 26%;">
+      <img src="C:\Users\lenovo\Downloads\الباندا-الصغيرة-و-أمها.jpg" height="250px" width="190px" style="position: absolute; top: 60%; left: 7%;">
+      <img src="C:\Users\lenovo\Downloads\17222201._UY630_SR1200,630_.jpg" height="250px" width="190px" style="position: absolute; top: 60%; left: 35%;">
+      <img src="C:\Users\lenovo\Downloads\926b47ec6a205bcae484098b8427e5c8.jpg" height="250px" width="190px" style="position: absolute; top: 60%; right: 26%;">
+      <img src="C:\Users\lenovo\Downloads\الحصان-الطيار-في-بلاد-الاسرار.png" height="250px" width="190px" style="position: absolute; top: 60%; right: 3%;">
+    </ul>
+  </div>
+  <div id="list4" class="bookList">
+  <div id="padding-box">
+    <a href="https://www.instagram.com/almaktaba_altanmauiya/" target="_blank">Instagram</a>
+
+
+    <ul>
+  <script>
+    function showBookList(listId) {
+      var bookList = document.getElementById(listId);
+      var bookLists = document.getElementsByClassName("bookList");
+      for (var i = 0; i < bookLists.length; i++) {
+        bookLists[i].style.display = "none";
+      }
+      bookList.style.display = "block";
+    }
+    
+  </script>
+</body>
+</html>
